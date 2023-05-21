@@ -9,5 +9,6 @@ pluginManagement {
   }
 }
 
-rootProject.name = "gradle-project-template"
+rootProject.name = "record-builder-avaje-jsonb-example"
+include 'app'
 

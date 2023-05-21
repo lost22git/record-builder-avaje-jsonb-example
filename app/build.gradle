@@ -1,0 +1,14 @@
+plugins {
+  id("application")
+}
+
+dependencies {
+  compileOnly(libs.record.builder)
+  annotationProcessor(libs.record.builder.processor)
+  implementation(libs.avaje.jsonb)
+  annotationProcessor(libs.avaje.jsonb.generator)
+}
+
+application {
+  mainClass = "example.Main"
+}

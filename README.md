@@ -1,1 +1,1 @@
-# A self-used gradle project template
+# an example for testing record-builder work with avaje-jsonb
